@@ -1,0 +1,503 @@
+// GLOBAL STYLES
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+$bgcolor: rgba(13, 2, 2, 0.927);
+$fontcolor: #fff;
+$deeppinkcolor: purple;
+$pinkcolor: rgb(48, 250, 240);
+$redcolor: rgb(183, 57, 57);
+$deepred: rgb(88, 18, 18);
+$bluecolor: hsl(249, 70%, 62%);
+$greencolor: green;
+$browncolor: rgb(59, 37, 37);
+$deepgreencolor: rgb(31, 136, 31);
+$chocolatecolor: rgb(52, 28, 10);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+body {
+    background-color: $bgcolor;
+}
+
+// HEADER 
+
+.header {
+    color: $fontcolor;
+    margin-top: 20px;
+}
+// CONTAINER
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    background-color: $bgcolor;
+    color: $fontcolor;
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+
+    sup {
+        font-size: .5em !important;
+    }
+// the empty columns have some contents that are being colored by the global background color
+
+    #emptycol {
+        background-color: $bgcolor;
+        color: $bgcolor;
+    }
+
+    // this are colors that span accross multiple columns
+    
+    #deep-green {
+        background-color: $deepgreencolor;
+    }
+
+    #chocoloate-color {
+        background-color: $chocolatecolor;
+    }
+
+    // INDEX COLUMN
+
+    .index-column {
+        display: grid;
+
+        .col1 {
+            padding: 5px;
+        }
+
+        #group {
+            font-size: 12px;
+            display: grid;
+            grid-template-columns: auto auto;
+
+            .fa-arrow-right {
+                margin-top: 5px;
+            }
+        }
+    }
+
+    // FIRST COLUMN
+
+    .first-column {
+        display: grid;
+        grid-gap: 2px;
+        text-align: center;
+
+        #helium {
+            background-color: $browncolor;
+        }
+
+        .one {
+            background-color: $bgcolor;
+        }
+        .col2 {
+            padding: 5px;
+        }
+        p {
+            background-color: $deeppinkcolor;
+            text-align: center;
+        }
+    }
+
+// SECOND COLUMN
+
+    .second-column {
+        display: grid;
+        grid-gap: 2px;
+
+        p {
+            background-color: $bluecolor;
+            margin-left: 2px;
+        }
+        .two {
+            background-color: $bgcolor;
+        }
+
+        .col3 {
+            padding: 5px;
+        }
+    
+    }
+}
+
+// THIRD COLUMN
+
+.third-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .three {
+        background-color: $bgcolor;
+    }
+
+    .col3 {
+        padding: 5px;
+    }
+
+    #empty-col-colored {
+        background-color: $bgcolor;
+    }
+}
+// FOURTH COLUMN
+
+.third-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .four {
+        background-color: $bgcolor;
+    }
+
+    .col4 {
+        padding: 5px;
+    }
+}
+
+
+// FOURTH COLUMN
+
+.fourth-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .four {
+        background-color: $bgcolor;
+    }
+
+    .col5 {
+        padding: 5px;
+    }
+}
+
+
+// FIVTH COLUMN
+
+.fivth-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .five {
+        background-color: $bgcolor;
+    }
+
+    .col6 {
+        padding: 5px;
+    }
+}
+
+
+// SIXTHTH COLUMN
+
+.sixth-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .six {
+        background-color: $bgcolor;
+    }
+
+    .col6 {
+        padding: 5px;
+    }
+}
+
+
+// SEVENTH COLUMN
+
+.seventh-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .seven {
+        background-color: $bgcolor;
+    }
+
+    .col7 {
+        padding: 5px;
+    }
+}
+
+
+// EIGHT COLUMN
+
+.eight-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .eight {
+        background-color: $bgcolor;
+    }
+
+    .col8 {
+        padding: 5px;
+    }
+}
+
+
+// NINTH COLUMN
+
+.ninth-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .nine {
+        background-color: $bgcolor;
+    }
+
+    .col9 {
+        padding: 5px;
+    }
+}
+
+
+// TENTH COLUMN
+
+.tenth-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .ten {
+        background-color: $bgcolor;
+    }
+
+    .col10 {
+        padding: 5px;
+    }
+}
+
+
+// ELEVENTH COLUMN
+
+.eleventh-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .eleven {
+        background-color: $bgcolor;
+    }
+
+    .col11 {
+        padding: 5px;
+    }
+}
+
+
+// TWELVE COLUMN
+
+.twelvth-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $redcolor;
+        margin-left: 2px;
+    }
+    .twelve {
+        background-color: $bgcolor;
+    }
+
+    .col12 {
+        padding: 5px;
+    }
+}
+
+
+// THIRTEEN COLUMN
+
+.thirteen-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $pinkcolor;
+        margin-left: 2px;
+    }
+    .thirteen {
+        background-color: $bgcolor;
+    }
+
+    .col13 {
+        padding: 5px;
+    }
+}
+
+
+// FOURTEEN COLUMN
+
+.fourteen-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $pinkcolor;
+        margin-left: 2px;
+    }
+    .fourteen {
+        background-color: $bgcolor;
+    }
+
+    .col14 {
+        padding: 5px;
+    }
+}
+
+
+// FIVTEEN COLUMN
+
+.fivteen-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $pinkcolor;
+        margin-left: 2px;
+    }
+    .fivteen {
+        background-color: $bgcolor;
+    }
+
+    .col15 {
+        padding: 5px;
+    }
+}
+
+
+// SIXTEEN COLUMN
+
+.sixteen-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $pinkcolor;
+        margin-left: 2px;
+    }
+    .sixteen {
+        background-color: $bgcolor;
+    }
+
+    .col16 {
+        padding: 5px;
+    }
+}
+
+
+// SEVENTEEN COLUMN
+
+.seventeen-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $bluecolor;
+        margin-left: 2px;
+    }
+    .seventeen {
+        background-color: $bgcolor;
+    }
+
+    .col17 {
+        padding: 5px;
+    }
+}
+
+
+// EIGHTEEN COLUMN
+
+.eighteen-column {
+    display: grid;
+    grid-gap: 2px;
+
+    p {
+        background-color: $greencolor;
+        margin-left: 2px;
+    }
+    .eighteen {
+        background-color: $bgcolor;
+    }
+
+    .col18 {
+        padding: 5px;
+    }
+}
+
+// MOBILE MEDIA QUERIES
+
+@media screen and (max-width: 677px) {
+
+    .header {
+        display: none;
+    }
+    .container {
+        display: none;
+    }
+
+    .mobile {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mobile h4, p {
+        color: $fontcolor;
+    }
+}
+
+// DESKTOP MEDIA QUERIES
+
+@media screen and (min-width: 677px) {
+    .mobile {
+        display: none;
+    }
+}
